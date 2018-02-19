@@ -3,7 +3,7 @@ def random_card
            "eight", "nine", "ten",
            "jack", "queen", "king", "ace"]
 
-  cards[rand(13)]
+  cards.sample
 end
 
 def score(hand)
